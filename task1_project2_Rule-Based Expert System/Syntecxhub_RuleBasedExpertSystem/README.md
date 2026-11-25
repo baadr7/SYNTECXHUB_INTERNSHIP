@@ -51,8 +51,8 @@ Syntecxhub_RuleBasedExpertSystem/
 ## Installation
 
 ```bash
-git clone https://github.com/baadr7/Syntecxhub_RuleBasedExpertSystem.git
-cd Syntecxhub_RuleBasedExpertSystem
+git clone https://github.com/baadr7/SYNTECXHUB_INTERNSHIP.git
+cd "SYNTECXHUB_INTERNSHIP/task1_project2_Rule-Based Expert System/Syntecxhub_RuleBasedExpertSystem"
 ```
 
 ## Usage
