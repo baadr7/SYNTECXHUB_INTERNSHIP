@@ -1,0 +1,128 @@
+{
+  "title": "Medical Diagnosis Expert System",
+  "symptoms": [
+    "fever",
+    "cough",
+    "headache",
+    "fatigue",
+    "sore throat",
+    "runny nose",
+    "sneezing",
+    "itchy eyes",
+    "muscle aches",
+    "loss of smell",
+    "loss of taste",
+    "shortness of breath",
+    "chest pain",
+    "nausea",
+    "abdominal pain",
+    "diarrhea",
+    "rash",
+    "joint pain",
+    "frequent urination",
+    "excessive thirst",
+    "blurred vision"
+  ],
+  "diagnoses": [
+    "allergic rhinitis",
+    "gastroenteritis",
+    "hyperglycemia warning",
+    "influenza",
+    "viral respiratory infection",
+    "post-viral fatigue",
+    "pneumonia suspicion",
+    "requires urgent assessment"
+  ],
+  "rules": [
+    {
+      "id": "R01",
+      "if": ["sneezing", "runny nose", "itchy eyes"],
+      "then": "allergic rhinitis",
+      "description": "Nasal and ocular allergy triad suggests hay fever."
+    },
+    {
+      "id": "R02",
+      "if": ["sneezing", "runny nose", "sore throat"],
+      "then": "upper respiratory infection",
+      "description": "Classic upper airway infection pattern."
+    },
+    {
+      "id": "R03",
+      "if": ["fever", "cough", "muscle aches"],
+      "then": "flu-like illness",
+      "description": "Systemic febrile myalgia syndrome."
+    },
+    {
+      "id": "R04",
+      "if": ["nausea", "abdominal pain", "diarrhea"],
+      "then": "gastroenteritis",
+      "description": "Gastrointestinal triad consistent with enteritis."
+    },
+    {
+      "id": "R05",
+      "if": ["frequent urination", "excessive thirst", "blurred vision"],
+      "then": "hyperglycemia warning",
+      "description": "Classic hyperglycemic symptom cluster."
+    },
+    {
+      "id": "R06",
+      "if": ["rash", "joint pain"],
+      "then": "systemic inflammatory response",
+      "description": "Cutaneous and articular signs of systemic inflammation."
+    },
+    {
+      "id": "R07",
+      "if": ["upper respiratory infection", "fever"],
+      "then": "viral infection",
+      "description": "Febrile upper airway infection indicates viral origin."
+    },
+    {
+      "id": "R08",
+      "if": ["upper respiratory infection", "headache"],
+      "then": "viral infection",
+      "description": "Upper airway infection with headache indicates viral origin."
+    },
+    {
+      "id": "R09",
+      "if": ["flu-like illness", "headache"],
+      "then": "influenza",
+      "description": "Flu-like syndrome with headache matches influenza."
+    },
+    {
+      "id": "R10",
+      "if": ["flu-like illness", "loss of smell"],
+      "then": "viral respiratory infection",
+      "description": "Flu-like syndrome with anosmia suggests viral respiratory illness."
+    },
+    {
+      "id": "R11",
+      "if": ["viral infection", "shortness of breath"],
+      "then": "lower respiratory infection",
+      "description": "Viral infection spreading to the lower airways."
+    },
+    {
+      "id": "R12",
+      "if": ["lower respiratory infection", "chest pain"],
+      "then": "pneumonia suspicion",
+      "description": "Lower airway infection with chest pain raises pneumonia concern."
+    },
+    {
+      "id": "R13",
+      "if": ["systemic inflammatory response", "fever"],
+      "then": "requires urgent assessment",
+      "description": "Febrile systemic inflammation warrants urgent review."
+    },
+    {
+      "id": "R14",
+      "if": ["viral infection", "fatigue"],
+      "then": "post-viral fatigue",
+      "description": "Persistent fatigue following a viral infection."
+    },
+    {
+      "id": "R15",
+      "if": ["pneumonia suspicion"],
+      "then": "requires urgent assessment",
+      "description": "Suspected pneumonia requires urgent clinical assessment."
+    }
+  ]
+}

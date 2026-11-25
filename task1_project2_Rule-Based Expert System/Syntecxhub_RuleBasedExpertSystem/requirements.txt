@@ -1,0 +1,9 @@
+# Runtime dependencies: none.
+# The expert system relies exclusively on the Python standard library
+# (json, argparse, dataclasses, typing), so no third-party package is needed.
+#
+# Testing uses the built-in unittest framework:
+#   python -m unittest discover -s tests -v
+#
+# Minimum supported interpreter: Python 3.10+
+#   (the code uses PEP 604 unions "X | None" and PEP 585 generics)
