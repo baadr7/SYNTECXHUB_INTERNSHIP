@@ -122,7 +122,7 @@ Add a new rule to `knowledge_base.json`:
 
 ```json
 {
-  "id": "R16",
+  "id": "R17",
   "if": ["fever", "rash"],
   "then": "suspected infection",
   "description": "Fever with rash suggests an infectious process."

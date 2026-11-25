@@ -13,7 +13,6 @@ from typing import List, Sequence, Set, Tuple
 
 from .fact_base import FactBase
 from .knowledge_loader import KnowledgeBase
-from .rule import Rule
 
 
 @dataclass(frozen=True)

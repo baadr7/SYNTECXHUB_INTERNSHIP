@@ -24,7 +24,9 @@ class KnowledgeBase:
     Attributes:
         rules: The validated rules, in declaration order.
         symptoms: Known observable facts a user may report.
-        diagnoses: Known conclusions the engine may derive.
+        diagnoses: Every conclusion the engine may derive, i.e. the full set
+            of facts that can appear as a rule consequent (intermediate
+            findings as well as final diagnoses).
         title: Human-readable title of the knowledge base.
     """
 

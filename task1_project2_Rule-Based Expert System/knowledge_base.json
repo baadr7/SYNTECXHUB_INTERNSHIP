@@ -25,12 +25,17 @@
   ],
   "diagnoses": [
     "allergic rhinitis",
+    "upper respiratory infection",
+    "flu-like illness",
     "gastroenteritis",
     "hyperglycemia warning",
+    "systemic inflammatory response",
+    "viral infection",
     "influenza",
     "viral respiratory infection",
-    "post-viral fatigue",
+    "lower respiratory infection",
     "pneumonia suspicion",
+    "post-viral fatigue",
     "requires urgent assessment"
   ],
   "rules": [
@@ -123,6 +128,12 @@
       "if": ["pneumonia suspicion"],
       "then": "requires urgent assessment",
       "description": "Suspected pneumonia requires urgent clinical assessment."
+    },
+    {
+      "id": "R16",
+      "if": ["flu-like illness", "loss of taste"],
+      "then": "viral respiratory infection",
+      "description": "Flu-like syndrome with loss of taste suggests viral respiratory illness."
     }
   ]
 }
