@@ -18,3 +18,8 @@ Thumbs.db
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Local / temporary artefacts
+.screenshots/
+.tmp/
+*.tmp

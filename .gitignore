@@ -21,3 +21,5 @@ htmlcov/
 
 # Local / temporary artefacts
 .screenshots/
+.tmp/
+*.tmp
