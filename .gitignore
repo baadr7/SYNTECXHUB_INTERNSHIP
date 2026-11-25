@@ -19,7 +19,5 @@ Thumbs.db
 .coverage
 htmlcov/
 
-# Local / temporary artefacts
+# Local artefacts
 .screenshots/
-.tmp/
-*.tmp
