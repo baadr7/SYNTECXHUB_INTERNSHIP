@@ -1,4 +1,4 @@
-# Syntecxhub_RuleBasedExpertSystem
+# Rule-Based Expert System
 
 A transparent, rule-based **expert system** built for the Syntecxhub AI internship
 (Project 2). It implements a small if-then rule engine over a facts base and infers
@@ -23,7 +23,7 @@ inference step is logged so the user can follow the complete reasoning path.
 ## Project Structure
 
 ```
-Syntecxhub_RuleBasedExpertSystem/
+task1_project2_Rule-Based Expert System/
 ├── README.md
 ├── requirements.txt
 ├── knowledge_base.json        # Rules, symptoms and diagnoses (data)
@@ -52,7 +52,7 @@ Syntecxhub_RuleBasedExpertSystem/
 
 ```bash
 git clone https://github.com/baadr7/SYNTECXHUB_INTERNSHIP.git
-cd "SYNTECXHUB_INTERNSHIP/task1_project2_Rule-Based Expert System/Syntecxhub_RuleBasedExpertSystem"
+cd "SYNTECXHUB_INTERNSHIP/task1_project2_Rule-Based Expert System"
 ```
 
 ## Usage
